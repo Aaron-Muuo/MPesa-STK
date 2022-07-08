@@ -9,11 +9,11 @@
 
 
     //provided keys and codes
-    $safaricom_pass_key = ""; //get passkey from portal
+    $safaricom_pass_key = "PASTE_KEY_HERE";
     $safaricom_bussiness_short_code = "174379";
     $safaricom_party_b = "174379";
-    $safaricom_Consumer_Key = ""; //get consumer key from portal
-    $safaricom_Consumer_Secret = ""; //get consumer secret from portal
+    $safaricom_Consumer_Key = "PASTE_CONSUMER_KEY_HERE"; 
+    $safaricom_Consumer_Secret = "PASTE_CONSUMER_SECRET_HERE";
 
     //combine to get an access token
     $outh = $safaricom_Consumer_Key . ':' . $safaricom_Consumer_Secret;
