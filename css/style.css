@@ -1,0 +1,107 @@
+* {
+    transition: all .3s;
+}
+.form-style, .result-style {
+    font: 95% Arial, Helvetica, sans-serif;
+    width: 40%;
+    margin: 10px auto;
+    padding: 16px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 1px 1px 8px 2px #0003;
+}
+
+.form-style:hover {
+   
+    box-shadow: 1px 1px 16px 2px #64df26b0;
+}
+.result-style:hover {
+   
+    box-shadow: 1px 1px 16px 2px #df2698b0;
+}
+
+.form-style h1 {
+    background: #70D143;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 1px 16px 2px #0003
+}
+.result-style h1 {
+    background: #df2698b0;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 1px 16px 2px #0003
+}
+
+.form-style input[type="text"],
+
+.form-style input[type="number"],
+
+.form-style select {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+
+.form-style input[type="text"]:focus,
+
+.form-style input[type="number"]:focus,
+
+.form-style textarea:focus,
+.form-style select:focus {
+    box-shadow: 0 0 5px #70D143;
+    padding: 3%;
+    border: 1px solid #70D143;
+}
+
+.form-style input[type="submit"],
+.form-style input[type="button"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #70D143;
+    border-bottom: 2px solid #5EB138;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+
+.form-style input[type="submit"]:hover,
+.form-style input[type="button"]:hover {
+    background: #70D143;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    gap: 12px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#e9e9e9;
+    color: #525558;
+    text-align: center;
+  }
